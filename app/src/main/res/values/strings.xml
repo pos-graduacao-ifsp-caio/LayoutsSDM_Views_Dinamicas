@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LayoutsSDM</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="receber_notificacoes">Receber notificações</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
+
+    <string-array name="tipo_telefone">
+        <item>Fixo</item>
+        <item>Celular</item>
+    </string-array>
+
+</resources>
