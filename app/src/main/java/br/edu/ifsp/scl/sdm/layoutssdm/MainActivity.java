@@ -169,5 +169,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         notificacoesRadioGroup.clearCheck();
         notificaceosCheckBox.setChecked(false);
         nomeEditText.requestFocus();
+
+        if(!emailsArmazenados.isEmpty()){   // se a lista ñ estiver vazia  remove as views do linearLayout
+            linearLayoutEmail.removeAllViews();
+            emailsArmazenados.clear();
+        }
+        if(!telefonesArmazenados.isEmpty()){  // se a lista ñ estiver vazia  remove as views do linearLayout
+            linearLayoutTelefone.removeAllViews();
+            telefonesArmazenados.clear();
+            tiposTelefonesArmazenados.clear();
+        }
+
     }
 }
